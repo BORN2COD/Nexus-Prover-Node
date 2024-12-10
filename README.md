@@ -3,37 +3,94 @@
 - Recommended: 6 GB RAM
 - Purchase VPS with [PQ Hosting](https://pq.hosting/?from=555778&lang=en) using cryptocurrency
 ---
-This script is compatible with Ubuntu on the local system as well as on VPS
-- If you run on VPS, you don't need to do anything after running the installation commands
-- If you run on a Local system (Ubuntu), you need to open the terminal after turning on your system to start this prover, it will start running automatically again, if it is not running then use this command to run
-```bash
-sudo systemctl start nexus.service
-```
+**Nexus Testnet CLI Command [VPS]**  
 
-## Installation
-- use either this command
+Running a Nexus on the command-line interface (CLI) is identical to the web version, with the added benefit of not requiring your PC to remain powered on, as the virtual private server (VPS) will handle the task.  
+
 ---
-This script is compatible with Ubuntu on the local system as well as on VPS
-- If you run on VPS, you don't need to do anything after running the installation commands
-- If you run on a Local system (Ubuntu), you need to open the terminal after turning on your system to start this prover, it will start running automatically again, if it is not running then use this command to run
+
+REMEMBER NOTHING IS PROMISED, ONLY PARTICIPATE IF IN YOUR CAPACITY  
+
+🧮 **Getting Started**  
+
+1️⃣ Get a VPS:  
+   - Go with a cheap VPS you can afford.  
+
+2️⃣ **Set up VPS and proceed with Termius.**  
+
+---
+
+🔧 **Update System Directory**  
+
 ```bash
-sudo systemctl start nexus.service
+sudo apt update && sudo apt upgrade
+sudo apt install build-essential pkg-config libssl-dev git-all
 ```
 
-## Installation
-- You can use either this command
+- Reply with `Y` and wait for the process to complete.  
+
+---
+
+🐦 **Install Rust**  
+
 ```bash
-curl -sSL https://raw.githubusercontent.com/BORN2COD/Nexus-Prover-Node/main/nexus.sh | bash
-```
-- Or this command to run this script
-```bash
-wget -qO - https://raw.githubusercontent.com/BORN2COD/Nexus-Prover-Node/main/nexus.sh | bash
+curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
+. "$HOME/.cargo/env"
 ```
 
-## Status
-- You can check prover status using this command
+---
+
+🔄 **Reboot System**  
+
+Wait 30 seconds, reconnect the terminal:  
+
 ```bash
-systemctl status nexus.service
+reboot
+```
+
+---
+
+⚙️ **Install Compiler**  
+
+```bash
+sudo apt install -y protobuf-compiler
+```
+
+---
+
+🚀 **Run Command**  
+
+```bash
+curl https://cli.nexus.xyz/ | sh
+```
+
+Wait for the entire process to complete. To pause:  
+
+`CTRL + Z`
+
+---
+
+🔑 **Configuring Prover ID**  
+
+Copy the prover ID from [https://beta.nexus.xyz/](https://beta.nexus.xyz/) and replace:  
+
+```bash
+echo "YOUR_PROVER_ID" > ~/.nexus/prover-id
+```
+
+Re-run the command:  
+
+```bash
+curl https://cli.nexus.xyz/ | sh
+```
+
+---
+
+🎉 **All Set!**  
+
+Now you’re ready. Wait some time to see it reflected on the web interface.  
+
+✅ Done!
 ```
 - To check logs, use the below command
 ```bash
