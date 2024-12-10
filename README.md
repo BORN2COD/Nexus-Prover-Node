@@ -7,14 +7,12 @@
 
 Running a Nexus on the command-line interface (CLI) is identical to the web version, with the added benefit of not requiring your PC to remain powered on, as the virtual private server (VPS) will handle the task.  
 
----
+--- 
 
-REMEMBER NOTHING IS PROMISED, ONLY PARTICIPATE IF IN YOUR CAPACITY  
-
-🧮 **Getting Started**  
+**Getting Started**  
 
 1️⃣ Get a VPS:  
-   - Go with a cheap VPS you can afford.  
+- Go with a cheap VPS you can afford.  
 
 2️⃣ **Set up VPS and proceed with Termius.**  
 
@@ -92,10 +90,5 @@ Now you’re ready. Wait some time to see it reflected on the web interface.
 
 ✅ Done!
 ```
-- To check logs, use the below command
-```bash
-journalctl -u nexus.service -f -n 50
-```
-- You will see something like this, it means, it is fine
 
 ![Screenshot 2024-10-09 115039](https://github.com/user-attachments/assets/3d3065d8-cb88-44ca-88b8-ac072bcf9eff)
