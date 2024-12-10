@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl -s https://raw.githubusercontent.com/BORN2COD/faizco_logo.sh/blob/main/faizco_logo.sh | bash
+curl -s https://raw.githubusercontent.com/BORN2COD/faizco_logo.sh/main/faizco_logo.sh | bash
 sleep 5
 
 # Text styling variables
