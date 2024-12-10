@@ -1,7 +1,7 @@
 # Nexus-Prover-Node
 - You need to have min 4 RAM in your system (VPS)
 - Recommended: 6 GB RAM
-- You can buy VPS from [PQ Hosting](https://pq.hosting/?from=555778&lang=en) using cryptocurrency
+- Purchase VPS with [PQ Hosting](https://pq.hosting/?from=555778&lang=en) using cryptocurrency
 ---
 This script is compatible with Ubuntu on the local system as well as on VPS
 - If you run on VPS, you don't need to do anything after running the installation commands
