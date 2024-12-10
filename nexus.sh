@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Display a logo (optional, for branding)
 curl -s https://raw.githubusercontent.com/BORN2COD/faizco_logo.sh/main/faizco_logo.sh | bash
 sleep 5
 
@@ -9,7 +8,7 @@ BOLD=$(tput bold)
 NORMAL=$(tput sgr0)
 PINK='\033[1;35m'
 
-# Function to display messages with icons
+
 show() {
     case $2 in
         "error")
