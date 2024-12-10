@@ -23,11 +23,11 @@ sudo systemctl start nexus.service
 ## Installation
 - You can use either this command
 ```bash
-curl -sSL https://raw.githubusercontent.com/BORN2COD/Nexus-Prover-Node/blob/main/nexus.sh | bash
+curl -sSL https://raw.githubusercontent.com/BORN2COD/Nexus-Prover-Node/main/nexus.sh | bash
 ```
 - Or this command to run this script
 ```bash
-wget -qO - https://raw.githubusercontent.com/BORN2COD/Nexus-Prover-Node/blob/main/nexus.sh | bash
+wget -qO - https://raw.githubusercontent.com/BORN2COD/Nexus-Prover-Node/main/nexus.sh | bash
 ```
 
 ## Status
