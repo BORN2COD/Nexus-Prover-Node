@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Fetch and run external logo script
-curl -s https://raw.githubusercontent.com/BORN2COD/logo/main/faizco_logo.sh | bash
+curl -s https://raw.githubusercontent.com/BORN2COD/logo/main/logo.sh | bash
 sleep 5
 
 # Text styling variables
