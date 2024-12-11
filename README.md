@@ -90,5 +90,3 @@ Now you’re ready. Wait some time to see it reflected on the web interface.
 
 ✅ Done!
 ```
-
-![Screenshot 2024-10-09 115039](https://github.com/user-attachments/assets/3d3065d8-cb88-44ca-88b8-ac072bcf9eff)
